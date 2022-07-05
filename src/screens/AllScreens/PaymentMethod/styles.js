@@ -1,0 +1,73 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+    backgroundImage: {
+        flex: 1,
+        padding: 20
+    },
+    IconBack: {
+        width: 50,
+        height: 50,
+        marginTop: 40,
+        marginBottom: 20
+    },
+    titleText: {
+      fontSize: 30,
+      fontWeight: 'bold',
+    },
+    titleSubText: {
+        marginTop: 20,
+        lineHeight: 30
+    },
+    btnContainer: {
+        marginTop: 40
+    },
+    visaImg: {
+        width: 70,
+        height: 20,
+    },
+    PayoneerImg: {
+        width: 90,
+        height: 30,
+    },
+    paypalImg: {
+        width: 100,
+        height: 25,
+    },
+
+    btn: {
+        height: 65,
+        color: '#828181',
+        backgroundColor: '#fff',
+        borderRadius: 15,
+        borderWidth: 1.5,
+        borderColor: '#F4F4F4',
+        marginBottom: 20,
+        padding: 25,
+        fontSize: 15,
+        shadowColor: "#c1d7f7",
+        elevation: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    submitButton: {
+        alignItems: 'center',
+        marginTop: 100,
+    },
+    button: {
+        width: 157,
+        height: 60,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 10,
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 16,
+        fontWeight: 'bold',
+    }
+
+});
